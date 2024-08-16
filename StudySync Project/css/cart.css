@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/* main body */
+
+.cart_body {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner_cart_body {
+    gap: 1rem;
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.548);
+}
+
+.card_list_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 70%;
+    border-radius: 10px;
+    gap: 0.6rem;
+    box-shadow: 5px 10px 15px rgb(197, 197, 197);
+    /* background-color: whitesmoke; */
+}
+
+/* image hide  */
+.card_list {
+    display: none;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.card_list img {
+    height: 200px;
+    width: 300px;
+}
+
+.item_list {
+    border: 1px solid rgba(128, 128, 128, 0.388);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 120px 150px 50px;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.image img {
+    width: 100%;
+}
+
+.cart_heading{
+    display: flex;
+    justify-content: center;
+}
+
+.total_price{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    flex-direction: column;
+    right: 0;
+    width: 100%;
+    text-wrap: none;
+    padding: 10px;
+}
+.checkoutBtn{
+    width: 25%;
+}
+.checkoutBtn .CheckBtn{
+    width: 100%;
+    background-color: #494cf9;
+    border-radius: 5px;
+}
+.CheckBtn:hover{
+    background-color: #6b6efe;
+
+}
+.CheckBtn{
+    background-color: pink;
+}
+
+.inner_cart_body button {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 10px;
+    font-size: 19px;
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.inner_cart_body a{
+    text-decoration: none;
+}
+.shopping_btn{
+    display: flex;
+    justify-content: center;
+}

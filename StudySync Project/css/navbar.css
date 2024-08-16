@@ -1,0 +1,170 @@
+
+.container {
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.navBar {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: black;
+    font-size: 21px;
+}
+
+.logo_img{
+    height: 100px;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+.menu_option {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: large;
+}
+
+.menu_option a {
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+}
+.menu_option a:hover{
+    color: #6366F1;
+}
+#theme_btn{
+    height: 2.3rem;
+    background-color: whitesmoke;
+    border: none;
+}
+#theme_btn img{
+    height: 2rem;
+}
+.contact_btn {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_btn img{
+    height: 40px;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.menu_btn{
+    display: none;
+    height: 20px;
+    width: 20px;
+    font-size: 44rem;
+    border-radius: 0.375remm;
+    font-weight: 600;
+    border: none;
+    background-color: whitesmoke;
+}
+.menu_icon{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#btn:hover{
+    background-color: #5254f8;
+}
+#btn {
+    background-color: #6366F1;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+@media screen and (max-width:950px){
+    .logo_img{
+        height: 70px;
+    }
+    .logo h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:840px){
+    .menu_option{
+        gap: 1rem;
+    }
+    .contact_btn img{
+        height: 30px;
+    }
+    #theme_btn img{
+        display: flex;
+        align-items: center;
+        height: 25px;
+    }
+    #btn{
+        /* font-size: 10px; */
+        padding: 7px;
+    }
+    .navBar{
+        padding:10px;
+    }
+}
+@media screen and (max-width:743px){
+    
+    .menu{
+        display: flex;
+
+    }
+    .contact_btn{
+        display: flex;
+        justify-content: end;
+
+    }
+
+}
+
+@media screen and (max-width:610px){
+    .menu{
+        display: none;
+    }
+}
+@media(max-width:460px){
+    .inner_page1{
+        padding: 0 !important;
+    }
+    .inner_tittle{
+        width: 100%;
+        padding: 10px;
+    }
+    #btn{
+        font-size: 11px;
+    }
+    .navBar{
+        /* gap:1rem; */
+        justify-content: space-between;
+    }
+    .contact_btn{
+        display: none;
+    }
+    .menu_btn{
+        display: flex;
+    }
+    
+}

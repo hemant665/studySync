@@ -1,0 +1,120 @@
+footer{
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+
+.footer_box{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    border-bottom: 1px solid gray;
+    gap: 1rem;
+}
+.footer_logo{
+    display: flex;
+    align-items: center;
+}
+.footer_logo img{
+     height: 70px;
+}
+
+.footer_left{
+    width: 35%;
+    padding: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1.5rem;
+    position: relative;
+}
+.footer_right{
+    width: 65%;
+    background-color: whitesmoke;
+    padding: 10px;
+    position: relative;
+}
+
+@media screen and (max-width:1000px){
+    .footer_box{
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer_left{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer_right{
+        width: 100%;
+    }
+    .footer_menu{
+        width: 100%;
+    }
+}
+
+.footer_social_icon{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.footer_social_icon img{
+    height: 2rem;
+}
+.footer_menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 678px){
+    .footer_menu{
+        gap: 2rem;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width: 500px){
+    .footer_menu{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+#footer_menu_id{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    justify-content: center;
+    align-items:center;
+    padding: 15px;
+}
+#footer_menu_id a{
+    text-decoration: none;
+    color: rgb(132, 132, 132);
+    font-size: 1rem;
+}
+#footer_menu_id li{
+    list-style: none;
+
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: rgb(132, 132, 132);
+    background-color: whitesmoke;
+}
