@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* main body */
+
+.popular_course {
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.text_heading {
+    font-size: 24px;
+    padding: 10px;
+    border-right: solid #6366F1;
+}
+
+.inner_popular_course {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding-top: 30px;
+}
+
+.right_text {
+    width: 55%;
+    font-size: 17px;
+}
+
+.inner_course_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    margin: 10px;
+}
+
+.tutorial_box {
+    width: 80%;
+    padding: 20px;
+}
+
+.tutorial_box img {
+    height: 10rem;
+}
+
+@media(max-width: 1450px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 2;
+    }
+}
+
+@media(max-width: 900px) {
+    .tutorial_box {
+        width: 100%;
+        padding: 5px;
+    }
+}
+
+@media(max-width: 520px) {
+    .right_text {
+        display: none;
+    }
+
+    .text_heading {
+        width: 90%;
+        border: none;
+    }
+
+    .tutorial_box {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .inner_course_page {
+        padding: 10px;
+    }
+}
+
+.btn {
+    width: 100%;
+    background-color: #6366F1;
+    padding: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.card_btn {
+    padding: 5px 10px;
+    background-color: #6366F1;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.card{
+    height: 100%;
+    box-shadow: 6px 7px 7px rgba(0, 0, 0, 0.342);
+}

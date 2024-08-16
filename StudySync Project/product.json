@@ -1,0 +1,21 @@
+[
+    {
+        "id" : 1,
+        "course" : "HTML/CSS",
+        "price" : 1000,
+        "image" : "image/html_css.jpg"
+    },
+    {
+        "id" : 2,
+        "course" : "Web Development",
+        "price" : 2000,
+        "image" : "image/web-development.jpg"
+    },
+    {
+        "id" : 3,
+        "course" : "Kotline",
+        "price" : 3000,
+        "image" : "image/kotline course.webp"
+    }
+
+]

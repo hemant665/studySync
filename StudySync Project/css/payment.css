@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* page */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    gap: 50px;
+}
+.details{
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 15px;
+}
+
+.payment{
+    width: 50%;
+    padding: 35px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 15px;
+}
+.payment_method {
+    display: flex;
+    justify-content: space-around;
+}
+.payment_method img{
+    height: 60px;
+}
+.user_details{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+input{
+    width: 100%;
+    font-size: 20px;
+    padding: 7px;
+    outline: none;
+}
+.card_num{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+@media(max-width:1179px){
+    .details{
+        width: 100%;
+    }
+    .payment{
+        width: 100%;
+    }
+    .card_num{
+        gap: 1rem;
+    }
+}
+
+@media(max-width:630px){
+    .details{
+        width: 100%;
+    }
+    .payment{
+        font-size: 12px;
+    }
+    input{
+        font-size: 12px;
+        padding: 7px;
+    }
+    .payment img{
+        height: 40px;
+    }
+    .card_num{
+        gap: 1rem;
+    }
+    .payment_btn{
+        width: 70%;
+        font-size: 7px;
+        padding: 5px;
+    }
+}
+@media(max-width:426px){
+    .inner_container{
+        width: 100%;
+        font-size: 11px;
+    }
+    .payment{
+        font-size: 11px;
+    }
+    input{
+        font-size: 10px;
+        padding: 5px;
+    }  
+    .payment img{
+        height: 30px;
+    }
+    .card_num{
+        gap: 1rem;
+    }
+    .payment_btn{
+        width: 80%;
+        font-size: 7px;
+        padding: 5px;
+    }
+}
+.payment_Button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.payment_btn{
+    width: 35%;
+    padding: 10px;
+    font-size: 17px;
+    background-color: rgb(35, 35, 249);
+    color: white;
+    border: none;
+}
